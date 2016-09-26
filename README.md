@@ -8,6 +8,7 @@ Requirements:
         Optional:
             Cython
 
+
 Usage:
 ~~~~~
     python gorillamap.py -i <input_file> -p <port> -v
@@ -27,3 +28,9 @@ Example:
 ~~~~~~~~
      python gorillamap.py -i ip_list.txt -p 80 -v
      python gorillamap.py -i ip_list.txt -p 22 -o scanned_up.txt -w 2
+
+
+Notes:
+~~~~~~
+    modules.pyx is a pure library and can be run as a python file by simply 
+    renaming it to modules.py
